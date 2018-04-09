@@ -19,27 +19,17 @@ final class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String accStr;  
 		String choice;
-		
-		if (args.length == 0) {
-			accStr = "20";
-			choice = "1";
 			
-		}
-		else{
+		System.out.println("Enter your string of numbers or just one number:");
+		accStr = br.readLine();
+		System.out.println("Initial String: ");
+		System.out.println(accStr);
+		System.out.println("Algorithm Codes :\n"
+				+ "0 (Bubble Sort) \t 1 (Selection Sort) \t 2 (Insertion Sort)\n"
+				+ "3 (Merge Sort) \t 4 (Quick Sort) \t\t 5 (Heap Sort)");
+		System.out.println("Enter selected algorithm code :");
+		choice = br.readLine();
 			
-			System.out.println("Enter your string of numbers or just one number:");
-			accStr = br.readLine();
-			
-			System.out.println("Initial String: ");
-			System.out.println(accStr);
-			
-			System.out.println("Algorithm Codes :\n"
-					+ "0 (Bubble Sort) \t 1 (Selection Sort) \t 2 (Insertion Sort)\n"
-					+ "3 (Merge Sort) \t 4 (Quick Sort) \t\t 5 (Heap Sort)");
-			System.out.println("Enter selected algorithm code :");
-			choice = br.readLine();
-			
-		}
 		SortDemoData data = new SortDemoData();
 		
 		try {
