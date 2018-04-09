@@ -9,7 +9,7 @@ import main.java.Item;
 import main.java.SortAlgos;
 import main.java.SortDemoData;
 
-class SortDemoTest {
+public class SortDemoTest {
 
     SortDemoData data = new SortDemoData();
 
