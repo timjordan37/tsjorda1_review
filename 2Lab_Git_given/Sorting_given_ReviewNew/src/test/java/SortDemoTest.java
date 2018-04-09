@@ -1,5 +1,17 @@
 package test.java;
 
+/*
+ * 
+ * File: SortDemoTest.java
+ * Author: Tim Jordan
+ * Date: 4/8/2018
+ * 
+ * Description: a test for SortDemo's method and functionality. Creating an instance calling
+ * the method and putting in our own value to test if the code functions are being accessed
+ * and called properly.
+ * 
+ */
+
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
